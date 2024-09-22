@@ -7,11 +7,14 @@ def container(title,image,description,url,url_title):#// c = st.container(border
     with st.expander(title,expanded=True):
         col1 , col2 = st.columns(2)
         with col1:
-            st.image(image,width=350)
+            st.image(image)
         with col2:
             st.title(title)
             st.write(description)
-            st.link_button(url_title,url)
+            if url_title == "No":
+                st.write('')
+            else:
+                st.link_button(url_title,url)
 container("Giulianna","./assets/Home_Assistante.png",""""Giulianna it's A
            Home Assistante Crossplatfrom Application . 
           It is a idea that  can create the difference and 
@@ -39,4 +42,4 @@ This project allows users to open or close the water from anywhere in the world 
  For example, you can open the water in the field or garden for animals anytime and anywhere with just a short message.
  This project helps us save time, money, and provides convenience. The box is easy to install and is affordable. ( Finished )
           
-""","https://drive.google.com/drive/my-drive","Project Url Document")
+""","https://drive.google.com/drive/my-drive","No")

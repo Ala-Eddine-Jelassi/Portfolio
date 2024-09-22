@@ -2,19 +2,19 @@ import streamlit as st
 
 profile_page = st.Page(
     page="Pages/profile.py",
-    title="Profile Page",
+    title="My Profile ",
     icon= ":material/person:",
     default=True
 )
 
 about_page = st.Page(
     page="Pages/about.py",
-    title="About Page",
+    title="About Me",
     icon=":material/cruelty_free:"
 )
 contact_page = st.Page(
     page="Pages/contact.py",
-    title="Contact Page",
+    title="Contact Me",
     icon=":material/alternate_email:"
 )
 projects_page = st.Page(

@@ -1,11 +1,15 @@
 import streamlit as st 
+from Backend.contact_form import email_valid
 
+
+def sendemail(recipient_email,name):
+    return  email_valid(recipient_email,name)
 
 st.title("Contact ")
 st.write("Social Media Network ")
 col1 , col2 , col3, col4 = st.columns(4)
 with col1:
-    twitter_button = st.link_button("Twitter ","https://www.twitter.com")
+    twitter_button = st.link_button("Twitter ","https://x.com/AlaDDin_JL")
 with col2:
     linkedin_button = st.link_button("Linkedin ","https://www.linkedin.com/in/aladinjelassi/")
 with col3:
@@ -23,10 +27,19 @@ with stcc :
     submit =st.button("Submit")
 if submit:
     print(first_name,email,message)
-    if first_name== "ala":
-        st.success("Your message has been sent successfully! 🎉", icon="🚀")
-        st.stop()
-    else:
-        st.error("There was an error sending your message.", icon="😨")
+    
+    if first_name != "" and message != "":
+        emailvalidation = sendemail(email,first_name)
+        if emailvalidation== "EmailSend" :
+            st.success("Your message has been sent successfully! 🎉", icon="🚀")
+            
+        else :
+             st.error("There was an error sending your message, Check Your email .", icon="😨")
+    if first_name== "":
+        st.error("Please Insert Your Name.", icon="👤")
+    if message=="":
+        st.error("Please Insert  your message.", icon="📃")
+   
+       
 
 
