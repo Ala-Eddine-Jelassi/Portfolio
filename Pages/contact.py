@@ -1,6 +1,6 @@
 import streamlit as st 
 from Backend.contact_form import email_valid
-
+from Backend.insert_mongodb import insert_data
 
 def sendemail(recipient_email,name):
     return  email_valid(recipient_email,name)
@@ -31,6 +31,7 @@ if submit:
     if first_name != "" and message != "":
         emailvalidation = sendemail(email,first_name)
         if emailvalidation== "EmailSend" :
+            insert_data(first_name,email,message)
             st.success("Your message has been sent successfully! 🎉", icon="🚀")
             
         else :
