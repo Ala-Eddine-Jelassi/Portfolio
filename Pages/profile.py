@@ -1,8 +1,7 @@
 import streamlit as st 
+from widgets.contactme import Qr_contact
 
 
-def go_to_page(page):
-    st.session_state.page = page 
 col1,col2 = st.columns(2)
 with col1:
     st.image("./assets/me.png")
@@ -10,7 +9,7 @@ with col2:
     st.title('ALAEDDIN JELASSI')
     st.write("ELECTRICAL ENGINEERING STUDENT")
     if st.button(" ✉️ Contact Me",type="primary"):
-        go_to_page("contact_page")
+       Qr_contact()
 st.title("Education")
 st.write("""
 - Master Degree Artificial Intelligence and Innovation Management (Future Plan )
