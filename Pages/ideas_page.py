@@ -31,7 +31,7 @@ or via Your Smart Phone using the Node-RED Mobile Application or with the a Netw
 this Project Has Benefits Mesure Temperature , Humidity and Gas after thzt store the data into 
           SQL Database also in CSV file also if you Need The Resume the System Will Send you 
           an email with csv file contain all data you need it . (Not Finished Yet )
-""","https://youtube.com/playlist?list=PL-RI51iURKRVRrcHTQHBkmIt9nBcQz5sk&si=wdjf78XMKsUZQpRO","Youtube Video")
+""","https://www.linkedin.com/posts/aladinjelassi_iot-homeautomation-nodered-activity-7249119307333259264-alob?utm_source=share&utm_medium=member_desktop","Linkedin Post")
 
 container("Water Pump Controller","./assets/water_pump.png","""
 In our days, water is a treasure. We should use it correctly and carefully.
