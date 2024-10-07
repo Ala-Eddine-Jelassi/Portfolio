@@ -30,7 +30,7 @@ My Home Controller is an IOT (Internet Of Things) Project that allow you to cont
 or via Your Smart Phone using the Node-RED Mobile Application or with the a Network IP Adress . 
 this Project Has Benefits Mesure Temperature , Humidity and Gas after thzt store the data into 
           SQL Database also in CSV file also if you Need The Resume the System Will Send you 
-          an email with csv file contain all data you need it . (Not Finished Yet )
+          an email with csv file contain all data you need it . 
 ""","https://www.linkedin.com/posts/aladinjelassi_iot-homeautomation-nodered-activity-7249119307333259264-alob?utm_source=share&utm_medium=member_desktop","Linkedin Post")
 
 container("Water Pump Controller","./assets/water_pump.png","""
