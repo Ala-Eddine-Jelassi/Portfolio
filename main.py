@@ -31,7 +31,7 @@ ideas_page= st.Page(
 #pg = st.navigation(pages=[profile_page,about_page,contact_page])
 pg = st.navigation(
     {
-        "Info" :[profile_page,V_card],
+        "Info" :[profile_page],
         "Contact":[contact_page],
         "Projects & Ideas":[projects_page,ideas_page]
     }

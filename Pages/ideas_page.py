@@ -25,12 +25,14 @@ container("Giulianna","./assets/Home_Assistante.png",""""Giulianna it's A
           (Not finished Yet )""","https://youtu.be/2G75Hy9w2YI?si=Dqe84GdLodo6G-0f",url_title="Youtube Video")
 
 container("My Home Controller","./assets/Nodered_dashboard.png","""
-My Home Controller is an IOT (Internet Of Things) Project that allow you to controller your home devices 
-(Washing Machine , TV , Doors ...) from a Node-RED Dashboard from anywere in the world , you can acces to the platfrom locally ( LAN : Local Area Network)
-or via Your Smart Phone using the Node-RED Mobile Application or with the a Network IP Adress . 
-this Project Has Benefits Mesure Temperature , Humidity and Gas after thzt store the data into 
-          SQL Database also in CSV file also if you Need The Resume the System Will Send you 
-          an email with csv file contain all data you need it . (Not Finished Yet )
+My Home Controller is an IOT (Internet Of Things) Project that allow you to controller
+           your home devices (Washing Machine , TV , Doors ...) from a Node-RED Dashboard 
+          from anywere in the world , you can acces to the platfrom locally 
+          ( LAN : Local Area Network) or via Your Smart Phone using the Node-RED 
+          Mobile Application or with the a Network IP Adress . this Project Has 
+          Benefits Mesure Temperature , Humidity and Gas after thzt store the 
+          data into SQL Database also in CSV file also if you Need The Resume 
+          the System Will Send you an email with csv file contain all data you need it .
 ""","https://youtube.com/playlist?list=PL-RI51iURKRVRrcHTQHBkmIt9nBcQz5sk&si=wdjf78XMKsUZQpRO","Youtube Video")
 
 container("Water Pump Controller","./assets/water_pump.png","""
