@@ -1,9 +1,7 @@
 import streamlit as st 
-from Backend.contact_form import email_valid
-from Backend.insert_mongodb import insert_data
 
-def sendemail(recipient_email,name):
-    return  email_valid(recipient_email,name)
+
+
 
 st.title("Contact ")
 st.write("Social Media Network ")
@@ -25,21 +23,7 @@ with stcc :
     email =  st.text_input("Email 📧  ")
     message = st.text_area("Your Message 👇")
     submit =st.button("Submit")
-if submit:
-    print(first_name,email,message)
-    
-    if first_name != "" and message != "":
-        emailvalidation = sendemail(email,first_name)
-        if emailvalidation== "EmailSend" :
-            insert_data(first_name,email,message)
-            st.success("Your message has been sent successfully! 🎉", icon="🚀")
-            
-        else :
-             st.error("There was an error sending your message, Check Your email .", icon="😨")
-    if first_name== "":
-        st.error("Please Insert Your Name.", icon="👤")
-    if message=="":
-        st.error("Please Insert  your message.", icon="📃")
+
    
        
 
