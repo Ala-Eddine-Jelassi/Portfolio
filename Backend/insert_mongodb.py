@@ -1,6 +1,6 @@
 from  pymongo import MongoClient
 from Backend.generatePdf import create_pdf
-url = "mongodb+srv://ADMIN:Sergioala10.@test.yxz2z.mongodb.net/?retryWrites=true&w=majority&appName=test"
+url = ""
 client = MongoClient(url)
 db = client["Portfolio_WebApp"]
 collection = db["contacts"]
