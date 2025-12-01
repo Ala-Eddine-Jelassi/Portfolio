@@ -2,8 +2,8 @@ import smtplib
 import re
 smtp_server = "smtp.gmail.com"
 port = 587 # tls port 
-email_sender = "alajlassi624@gmail.com"
-password = "tlqd hxoz lphu wqsa"
+email_sender = ""
+password = ""
 subject = "Thank You For Sending You message "
 body = " We will Contact You as soon as possible . "
 
