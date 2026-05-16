@@ -31,6 +31,15 @@ with col1:
 
 with col2:
     container("""
+Smart Vigie""","./assets/bluetooth.png",
+              description="""Mobile application developed with Flutter and Dart for displaying data transmitted from an ESP32 development board
+              in a multitasking IoT system. The application enables connection to an MQTT server and real-time data storage in Firebase 
+              for monitoring and information management.
+
+Technologies used: Flutter, Dart, Firebase, REST API, MQTT Broker. """,button_status="ON",
+              url_project="https://github.com/Ala-Eddine-Jelassi/Smart-Vigiefinaleversion.git")
+
+    container("""
 Control Your Equipment With Bluetooth Mobile App""","./assets/bluetooth.png",
               description="""Using your smartphone and Bluetooth connectivity, 
               you can control everything you want and make your home smart . turn on/off machines , lights , doors 
