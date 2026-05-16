@@ -31,7 +31,7 @@ with col1:
 
 with col2:
     container("""
-Smart Vigie""","./assets/bluetooth.png",
+Smart Vigie""","./assets/app.jpg",
               description="""Mobile application developed with Flutter and Dart for displaying data transmitted from an ESP32 development board
               in a multitasking IoT system. The application enables connection to an MQTT server and real-time data storage in Firebase 
               for monitoring and information management.
